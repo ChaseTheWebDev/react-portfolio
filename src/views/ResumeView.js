@@ -103,33 +103,34 @@ export default function Resume() {
                 <section className="education">
                     <h2 className='font-large'>EDUCATION</h2>
                     <div className='space-between-500'>
-                        <div className="education-item">
-                            <h3>Actor’s Workshop Studios</h3>
-                            <p><strong>2013 - 2018, San Diego, CA</strong></p>
-                            <i>Meisner Technique</i>
-                        </div>
+                        <div>
+                            <div className="education-item">
+                                <h3>Adler Improv</h3>
+                                <p><strong>2014 - 2015, Los Angeles, CA</strong></p>
+                                <i>Improv</i>
+                            </div>
+                            <div className="education-item">
+                                <h3>The Rehearsal Room</h3>
+                                <p><strong>2019 - 2023, San Diego, CA</strong></p>
+                                <i>Method Acting</i>
+                            </div>
 
-                        <div className="education-item">
-                            <h3>Adler Improv</h3>
-                            <p><strong>2014 - 2015, Los Angeles, CA</strong></p>
-                            <i>Improv</i>
+                            <div className="education-item">
+                                <h3>EMSTA College</h3>
+                                <p><strong>2016 - 2017, San Diego, CA</strong></p>
+                                <i>EMT Graduate</i>
+                            </div>
                         </div>
-
-                        <div className="education-item">
-                            <h3>The Rehearsal Room</h3>
-                            <p><strong>2019 - 2023, San Diego, CA</strong></p>
-                            <i>Method Acting</i>
-                        </div>
-
-                        <div className="education-item">
-                            <h3>EMSTA College</h3>
-                            <p><strong>2016 - 2017, San Diego, CA</strong></p>
-                            <i>EMT Graduate</i>
-                        </div>
-
-                        <div className="education-item">
-                            <h3>Granite Hills High School</h3>
-                            <p><strong>2005 - 2009, El Cajon, CA</strong></p>
+                        <div>    
+                            <div className="education-item">
+                                <h3>Actor’s Workshop Studios</h3>
+                                <p><strong>2013 - 2018, San Diego, CA</strong></p>
+                                <i>Meisner Technique</i>
+                            </div>
+                            <div className="education-item">
+                                <h3>Granite Hills High School</h3>
+                                <p><strong>2005 - 2009, El Cajon, CA</strong></p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -161,29 +162,32 @@ export default function Resume() {
                         <p><strong>2013 - Present</strong></p>
                     </div>
                 </section>
-                
-                <section className="skills">
+                <section className="skills-section">
                     <h2 className='font-large'>SKILLS</h2>
-                    <ul className='skills-container'>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Flexbox</li>
-                        <li>Grid</li>
-                        <li>NodeJS</li>
-                        <li>Vite</li>
-                        <li>TailwindCSS</li>
-                        <li>Github</li>
-                        <li>VS Code</li>
-                        <li>Microsoft Office</li>
-                        <li>Google Suite</li>
-                        <li>Screenwriting</li>
-                        <li>Novel writing</li>
-                        <li>Tournament-level chess</li>
-                        <li>Outdoor rock climbing</li>
-                        <li>SCUBA diving</li>
-                    </ul>
+                         <div className='space-between-500' >
+                            <ul className='skill-list'>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>Flexbox</li>
+                                <li>Grid</li>
+                                <li>NodeJS</li>
+                                <li>Vite</li>
+                                <li>TailwindCSS</li>
+                            </ul>
+                            <ul className='skill-list'>  
+                                <li>Github</li>
+                                <li>VS Code</li>
+                                <li>Microsoft Office</li>
+                                <li>Google Suite</li>
+                                <li>Screenwriting</li>
+                                <li>Novel writing</li>
+                                <li>Tournament-level chess</li>
+                                <li>Outdoor rock climbing</li>
+                                <li>SCUBA diving</li>
+                            </ul>
+                    </div>
                 </section>
 
                 <section className="awards">

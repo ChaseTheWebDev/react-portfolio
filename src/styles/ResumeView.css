@@ -53,7 +53,6 @@
 .resume-container ul {
     margin: 1rem 0 0 4rem;
     padding: 0;
-    list-style: disc;
 }
 
 .resume-container ul li {
@@ -114,24 +113,25 @@ a.email {
 }
 
 .space-between-500 {
-    max-width: 500px;
-    flex-flow: row wrap;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
     text-align: left;
-    align-items: center;
-    margin-inline: auto;
-    gap: 3rem;
+    align-items: flex-start;
+
 }
 
 .education-item {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: flex-start; 
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .education-item p,
 .education-item h3 {
-    margin: 0;
+    margin-block: 0;
 }
 
 .education-item h3 {
@@ -156,4 +156,33 @@ a.email {
     display: flex;
     align-items: center;
     column-gap: 2rem;
+}
+
+.skill-list {
+    list-style: none;
+    margin-left: 0rem;
+}
+
+
+
+.education-item,
+.skill-list{
+    width: 300px;
+}
+
+
+
+.awards ul li {
+    margin: 0rem; 
+    list-style: none;
+}
+
+.skill-list li, 
+.skill-list {
+    list-style: none !important;
+    margin: 0rem !important;
+}
+
+.awards ul {
+    margin-left: 0rem !important;
 }
