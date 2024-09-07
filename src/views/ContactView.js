@@ -55,8 +55,9 @@ export default function ContactView() {
                         <hr />
                     </div>
                     <address>
-                        <p>1053 Fake St, San Diego, CA</p>
-                        <p>(619) 555-0709</p>
+                        <p>Chase Leoncini</p>
+                        <p>San Diego, CA</p>
+                        
                     </address>
                 </div>
                 <div className='contact-box-2'>
