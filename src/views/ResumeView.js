@@ -29,8 +29,6 @@ export default function Resume() {
                 <section className="contact-info">
                     <h1 className='name'>CHASE LEONCINI</h1>
                     <p className='font-small contact-container'>
-                        <a href='mailto:chasethewebdev@gmail.com' className='email'>chasethewebdev@gmail.com</a> | 
-                        <a href='tel:6195550709' className='colored tel'>619-555-0709</a> | 
                         <span className='colored'>San Diego, CA</span>
                     </p>
                     <p className='font-small'>
