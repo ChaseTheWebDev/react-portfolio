@@ -1,0 +1,57 @@
+/* Base button styles */
+.button {
+    width: fit-content;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-block: 1.25rem;
+    padding-inline: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 1px solid;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    color: black;
+    border-color: black;
+    transition: opacity .3s ease;
+}
+
+/* Dark variant */
+.button-dark {
+    width: fit-content;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    padding-block: 1.25rem;
+    padding-inline: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 1px solid;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: filter, scale .1s ease;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button-dark:hover {
+    filter: brightness(125%);
+    scale: 102%;
+}
+
+/* Background image handling */
+.has-background-image {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+

@@ -1,0 +1,55 @@
+.project {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-box-1 {
+    width: 40%;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+    padding-block: 4rem;
+}
+
+.project-box-2 {
+    display: flex;
+    width: 60%;
+    line-height: 1.5;
+    padding-block: 3rem;
+}
+
+.project-box-1 h2 {
+    font-size: 2.5rem;
+}
+
+.project-blockquote {
+    padding: 2.5rem;
+}
+
+.previous,
+.next {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .project-box-1 {
+        width: 100%;
+        padding-block: 0;
+    }
+    
+    .project-box-2 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        padding-block: 1rem;
+        padding-bottom: 4rem;
+    }
+}
+

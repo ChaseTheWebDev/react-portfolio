@@ -1,0 +1,72 @@
+.certifications-view {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.certifications-container {
+    width: 100%;
+    max-width: 1825px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: center;
+    padding-block: 2rem;
+    margin-block: 2rem;
+}
+
+.certification-image {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-image.programming-certification {
+    background-image: url('../assets/programming-certificate.png');
+}
+
+.certification-image.html-css-certification {
+    background-image: url('../assets/html-css-certificate.png');
+}
+
+.certification-image.javascript-certification {
+    background-image: url('../assets/javascript-certificate.png'); 
+}
+
+.certification-image.react-certification {
+    background-image: url('../assets/react-certificate.png');
+} 
+
+
+@media (max-width: 1100px) {
+    .certifications-view {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .certifications-container {
+        width: 100%;
+        max-width: 1825px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 4rem;
+        justify-content: center;
+        padding-block: 2rem;
+        margin-block: 2rem;
+    }
+    
+    .certification-image {
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        width: 50%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    flex-flow: column nowrap;
+    padding-block: 2rem;
+    margin-block: 2rem;
+    margin-bottom: 4rem;
+}
+
+.footer-content-container {
+    max-width: 1400px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+}
+
+.footer-address-container {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 5rem;
+}
+
+footer h3 {
+    display: inline;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 1100px) {
+    .footer-content-container {
+        padding-inline: 4rem;
+    }
+}

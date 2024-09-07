@@ -1,0 +1,159 @@
+.resume {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    height: 500px;
+    width: 100%;
+    background: url('../assets/deskspace-3.jpg') #28282a no-repeat center;
+    background-size: cover;
+}
+
+.resume-dual-container {
+    color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    padding-block: 5rem;
+}
+
+.resume-box-1,
+.resume-box-2 {
+    padding-block: 3rem;
+}
+
+.resume-box-1 {
+    width: 40%;
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+}
+
+.resume-box-2 {
+    width: 60%;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.resume-container {
+    background-color: white;
+    max-width: 650px;
+    border: 1px solid black;
+    padding: 96px;
+    margin: 5rem auto; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.92rem;
+    text-align: justify;
+}
+
+.resume-container ul {
+    margin: 1rem 0 0 4rem;
+    padding: 0;
+    list-style: disc;
+}
+
+.resume-container ul li {
+    margin: 0 0 0 4rem;
+    padding: 0;
+    list-style: circle;
+}
+
+a.email,
+.tel {
+    all: unset;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a.email {
+    color: rgb(0, 116, 211);
+}
+
+.tel {
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 2.17rem;
+    font-weight: 600;
+}
+
+.font-small {
+    font-size: 0.92rem;
+}
+
+.font-medium {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.font-large {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-block: 1rem;
+}
+
+.colored {
+    color: rgb(54, 179, 137);
+}
+
+.space-between,
+.space-between-500 {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.space-between {
+    height: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-between-500 {
+    max-width: 500px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin-inline: auto;
+    gap: 3rem;
+}
+
+.education-item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.education-item p,
+.education-item h3 {
+    margin: 0;
+}
+
+.education-item h3 {
+    color: rgb(54, 179, 137);
+}
+
+.resume-thumbnail img {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+.resume-thumbnail:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.download-paragraph {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}

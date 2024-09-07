@@ -1,0 +1,114 @@
+.contact-section-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-block:2rem;
+    margin-block: 2rem;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.children-container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.contact-section-container.dark {
+    background: #28282a;
+}
+
+.contact-section-container.three {
+    background-image: url('../assets/midnightmonsters.jpeg');
+}
+
+.contact-section-container.other {
+    background-image: url('../assets/deskspace.jpg');
+}
+
+.contact-section-container.desktop-blue {
+    background-image: url('../assets/desktop-blue.jpg');
+}
+
+.contact-section-dark {
+    background-color: #2C2C2C;
+    color: white;
+}
+
+.contact-section-with-background {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.contact-section-container h2,
+.contact-section-dark h2,
+.contact-section-with-background h2 {
+    font-size: 2.6rem;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.contact-section-container p,
+.contact-section-dark p,
+.contact-section-with-background p {
+    font-size: 1.1rem;
+    width: 50%;
+    padding-bottom: 1rem;
+
+}
+
+@media (max-width: 1100px) {
+    .contact-section-container {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-block:2rem;
+        padding-inline: 4rem;
+        margin-block: 2rem;
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+    }
+    
+    .children-container {
+        max-width: 1400px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+    
+ 
+    .contact-section-container h2,
+    .contact-section-dark h2,
+    .contact-section-with-background h2 {
+        font-size: 2.6rem;
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+    
+    .contact-section-container p,
+    .contact-section-dark p,
+    .contact-section-with-background p {
+        font-size: 1.1rem;
+        width: 50%;
+        padding-bottom: 1rem;
+    
+    }
+}

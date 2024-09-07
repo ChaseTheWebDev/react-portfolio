@@ -1,0 +1,59 @@
+:root {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 1.75;
+}
+
+body {
+  overflow-x: hidden; /*Works with ScrollToTop Component*/
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input, textarea {
+  border: 1px solid black;
+  padding: 15px;
+  outline: none;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 2.5rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid hsl(210, 100%, 85%);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, mark, nav, section, summary {
+  display: block;
+}
+
+blockquote {
+  margin: 0;
+}

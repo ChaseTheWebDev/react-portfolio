@@ -1,0 +1,48 @@
+.media-menu {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 2rem;
+    background: white;
+    z-index: 10;
+}
+
+.menu-nav-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.close-button {
+    display: inline;
+    font-size: 2.5rem;
+    padding: 1rem; 
+    position: absolute; 
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.menu-list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-block: 2rem;
+    list-style-type: none;
+    margin: 0;
+}

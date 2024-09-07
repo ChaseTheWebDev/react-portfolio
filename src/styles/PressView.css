@@ -1,0 +1,54 @@
+.press{
+    width: 100vw;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+}
+
+.press-box-1 {
+    width: 40%;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+    padding-block: 4rem;
+}
+
+.press-box-2 {
+    width: 60%;
+    line-height: 1.5;
+    padding-block: 3rem;
+    font-size: 1.3rem;
+}
+
+.press-box-2 blockquote {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2.5rem;
+}
+
+/* --------- MEDIA CHANGES --------- */
+
+@media (max-width: 600px) {
+    .press-box-1 {
+        width: 100%;
+        padding-block: 0;
+    }
+    
+    .press-box-2 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        padding-block: 1rem;
+        padding-bottom: 4rem;
+        gap: 1rem;
+    }
+}
+.press-box-2 blockquote {
+    padding: 1rem;
+}
+
+cite {
+    padding-block: 1rem;
+}
