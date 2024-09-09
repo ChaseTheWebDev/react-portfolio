@@ -1,4 +1,4 @@
-.contact-section-container {
+.contact-section {
     height: 500px;
     width: 100%;
     display: flex;
@@ -24,19 +24,38 @@
     gap: 1rem;
 }
 
-.contact-section-container.dark {
+.contact-section h2,
+.contact-section-dark h2,
+.contact-section-with-background h2 {
+    font-size: 2.6rem;
+    padding-inline: 2rem;
+
+}
+
+.contact-section p,
+.contact-section-dark p,
+.contact-section-with-background p {
+    font-size: 1.1rem;
+    width: 50%;
+    padding-inline: 2rem;
+
+
+}
+
+
+.contact-section.dark {
     background: #28282a;
 }
 
-.contact-section-container.three {
+.contact-section.three {
     background-image: url('../assets/midnightmonsters.jpeg');
 }
 
-.contact-section-container.other {
+.contact-section.other {
     background-image: url('../assets/deskspace.jpg');
 }
 
-.contact-section-container.desktop-blue {
+.contact-section.desktop-blue {
     background-image: url('../assets/desktop-blue.jpg');
 }
 
@@ -50,65 +69,35 @@
     border-color: transparent;
 }
 
-.contact-section-container h2,
-.contact-section-dark h2,
-.contact-section-with-background h2 {
-    font-size: 2.6rem;
-    width: 50%;
-    padding-bottom: 1rem;
-}
-
-.contact-section-container p,
-.contact-section-dark p,
-.contact-section-with-background p {
-    font-size: 1.1rem;
-    width: 50%;
-    padding-bottom: 1rem;
-
-}
-
 @media (max-width: 1100px) {
-    .contact-section-container {
-        height: 400px;
-        width: 100%;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: flex-start;
-        padding-block:2rem;
-        padding-inline: 4rem;
-        margin-block: 2rem;
-        color: #fff;
-        background-size: cover;
-        background-position: center;
-        background-color: white;
+    .contact-section {
+        height: auto;
     }
     
     .children-container {
         max-width: 1400px;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: left;
-        align-items: flex-start;
         margin: 0 auto;
-        gap: 1rem;
+        gap: 0rem;
     }
     
  
-    .contact-section-container h2,
+    .contact-section h2,
     .contact-section-dark h2,
     .contact-section-with-background h2 {
-        font-size: 2.6rem;
-        width: 50%;
-        padding-bottom: 1rem;
+        font-size: 2rem;
+        padding-bottom: 0rem;
+        padding-inline: 1rem;
     }
     
-    .contact-section-container p,
+    .contact-section p,
     .contact-section-dark p,
     .contact-section-with-background p {
         font-size: 1.1rem;
-        width: 50%;
+        width: 70%;
         padding-bottom: 1rem;
+        padding-inline: 1rem;
     
     }
 }

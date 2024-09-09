@@ -8,14 +8,13 @@ import ProjectFourImage1 from "../assets/NetflixProjectPreview-1.png";
 
 export default function WorkView() {
     return (
-        <div className="workview-container">
-            <header className="container-1400">
-                <p>Chase Leoncini is a front-end web developer from San Diego, CA</p>
+        <div className="workview">
+            <header>
+                <p>Chase Leoncini is a front-end web developer from San Diego, CA.</p>
             </header>
             <main>
                 <div className='workview-image-1'></div>
-                <section aria-label='Recent Work'>
-                    <div className='recent-work'>
+                <section aria-label='Recent Work' className='recent-work'>
                         <h2>Recent Work</h2>
                         <p>
                             As a newcomer to the front-end web development field, I
@@ -28,39 +27,40 @@ export default function WorkView() {
                             web experiences. And yes, that last sentence was written with
                             ChatGPT. Thank you.
                         </p>
-                    </div>
-                    <div className='project-card-container'>
-                        <a href="/project/one" className="project-card">
-                            <img src={ProjectOneImage1} alt="Project 1" className="project-image"/>
-                            <div className='overlay'>
-                                <h5>Visit Project 1 (HTML / CSS)</h5>
-                            </div>
-                        </a>
-                        <a href="/project/two" className="project-card">
-                            <img src={ProjectTwoImage1} alt="Project 2" className="project-image"/>
-                            <div className='overlay'>
-                                <h5>Visit Project 2 (HTML / CSS)</h5>
-                            </div>
-                        </a>
-                        <a href="/project/three" className="project-card">
-                            <img src={ProjectThreeImage1} alt="Project 3" className="project-image"/>
-                            <div className='overlay'>
-                                <h5>Visit Project 3 (Javascript / React)</h5>
-                            </div>
-                        </a>
-                        <a href="/project/four" className="project-card">
-                            <img src={ProjectFourImage1} alt="Project 4" className="project-image"/>
-                            <div className='overlay'>
-                                <h5>Visit Project 4 (Javascript / React)</h5>
-                            </div>
-                        </a>
-                    </div>
                 </section>
+                <div className='project-gallery'>
+                            <div className='project-card-container'>
+                            <a href="/project/one" className="project-card">
+                                <img src={ProjectOneImage1} alt="Project 1" className="project-image"/>
+                                <div className='overlay'>
+                                    <h5>Visit Project 1 (HTML / CSS)</h5>
+                                </div>
+                            </a>
+                            <a href="/project/two" className="project-card">
+                                <img src={ProjectTwoImage1} alt="Project 2" className="project-image"/>
+                                <div className='overlay'>
+                                    <h5>Visit Project 2 (HTML / CSS)</h5>
+                                </div>
+                            </a>
+                            <a href="/project/three" className="project-card">
+                                <img src={ProjectThreeImage1} alt="Project 3" className="project-image"/>
+                                <div className='overlay'>
+                                    <h5>Visit Project 3 (Javascript / React)</h5>
+                                </div>
+                            </a>
+                            <a href="/project/four" className="project-card">
+                                <img src={ProjectFourImage1} alt="Project 4" className="project-image"/>
+                                <div className='overlay'>
+                                    <h5>Visit Project 4 (Javascript / React)</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 <ContactSection>
                     <h2>Let's Work Together</h2>
                     <p>
                         I'm always looking for new opportunities and am comfortable
-                        working locally, remotely, internationally, or from space. Please get in touch,
+                        working locally, remotely, internationally, or from outer-space. Please get in touch,
                         and I'll reach out to you probably in seconds.
                     </p>
                     <Button variant='light'>Contact Me</Button>

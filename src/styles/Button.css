@@ -1,5 +1,6 @@
 /* Base button styles */
 .button {
+    margin-inline: 2rem;
     width: fit-content;
     display: inline-flex;
     text-align: center;
@@ -20,6 +21,7 @@
 
 /* Dark variant */
 .button-dark {
+    margin-inline: 2rem;
     width: fit-content;
     display: inline-flex;
     text-align: center;
@@ -51,6 +53,16 @@
 .has-background-image {
     background-color: transparent;
     border-color: transparent;
+}
+
+@media (max-width:1100px) {
+    .button {
+        margin-inline: 1rem;
+    }
+
+    .button-dark {
+        margin-inline: 1rem;
+    }
 }
 
 

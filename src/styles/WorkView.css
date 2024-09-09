@@ -1,13 +1,22 @@
+
 header {
+    width: 100%;
+    max-width: 1400px;
     display: flex;
     flex-flow: row wrap;
     font-size: 3.6rem;
     font-weight: 500;
+    margin: 0 auto;
+}
+
+header p {
     padding-inline: 2rem;
 }
 
+
+
 .workview-image-1 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url('../assets/SanDiego.jpeg');
     background-size: cover;
@@ -23,23 +32,26 @@ header {
     display: flex;
     flex-flow: column nowrap;
     padding-block: 2rem;
-    margin-block: 2rem; 
-    margin-inline: auto;
-    gap: 1rem;
+    margin: 0 auto;
 }
 
-.recent-work-header h2 {
+.recent-work h2 {
+    padding-inline: 2rem;
     font-size: 2.5rem;
 }
 
 .recent-work p {
+    padding-inline: 2rem;
     width: 60%;
 }
 
 @media (max-width: 1100px) {
     header {
-        font-size: 3.6rem;
-        padding-inline: 2rem;
+        font-size: 2rem;
+    }
+
+    header p {
+        padding-inline: 1rem;
     }
     
     .workview-image-1 {
@@ -48,11 +60,20 @@ header {
     }
     
     .recent-work {
-        width: 90%;
+        width: 100%;
         gap: 0.25rem;
+        padding-inline: 0rem;
+        padding-block: 0rem;
+    }
+
+    .recent-work h2 {
+        font-size: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .recent-work p {
+        width: 80%;
+        padding-inline: 1rem;
     }
     
-    .recent-work p {
-        width: 100%;
-    }
 }

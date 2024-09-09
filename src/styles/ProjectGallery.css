@@ -1,11 +1,19 @@
+.project-gallery,
 .project-card-container {
     width: 100%;
-    max-width: 1825px;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
+}
+
+.project-gallery {
+    max-width: calc(100% - 2rem);
+}
+
+.project-card-container {
     gap: 4rem;
-    padding: 2rem;
+    padding-block: 2rem;
+    padding-inline: 2rem;
     justify-content: center;
     margin-block: 2rem;
 }
@@ -43,13 +51,11 @@
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 10px;
-    border-radius: 5px;
+    padding-block: 10px;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .project-card:hover .overlay {
@@ -64,9 +70,10 @@
 
 @media (max-width: 1100px) {
     .project-card-container {
-        width: 90%;
         flex-flow: column nowrap;
-        margin-bottom: 5rem;
+        margin-block: 0rem;
+        padding-inline: 0rem;
+        gap: 1rem;
     }
 
     .project-card {

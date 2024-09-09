@@ -26,7 +26,24 @@ footer h3 {
 }
 
 @media(max-width: 1100px) {
+
+    footer {
+        padding-block: 0rem;
+        margin-block:1rem;
+        margin-block: 0rem 2rem;
+    }
+
     .footer-content-container {
-        padding-inline: 4rem;
+        padding-inline: 1rem;
+    }
+
+    footer h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .footer-address-container {
+        flex-flow: column nowrap;
+        font-size: .75rem;
     }
 }

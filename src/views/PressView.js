@@ -8,10 +8,10 @@ export default function PressView() {
         <div className='press'>
             <section aria-label='Press Reviews Section'>
                 <div className='dual-container-1400'>
-                    <div className='press-box-1'>
+                    <div className='box-1'>
                         <h1>Press</h1>
                     </div>
-                    <div className='press-box-2'>
+                    <div className='box-2'>
                         <blockquote>
                             “Chase's commitment to not using ChatGPT to write fake
                              press reviews shows his willingness to go the extra mile.”

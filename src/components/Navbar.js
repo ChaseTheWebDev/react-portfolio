@@ -17,9 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="navbar" aria-label="Main Navigation">
-      
-          <div className="navbar-container">
+      <nav className="navbar" aria-label="Main Navigation">
             <h1 className="main-title">
               <NavLink to="/">ChaseTheWebDev</NavLink>
             </h1>
@@ -58,8 +56,7 @@ export default function Navbar() {
             <div className="menu-icon" onClick={handleMenuClick}>
               <TbMenuDeep />
             </div>
-          </div>
-        </div>
+        </nav>
       {menuVisibility && <MediaMenu onClose={handleCloseMenu} />}
     </>
   );
