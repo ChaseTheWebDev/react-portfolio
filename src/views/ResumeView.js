@@ -15,10 +15,11 @@ export default function Resume() {
                         </div>
                         <div className='resume-box-2'>
                             <div className='download-paragraph'>
-                                <p>Check it out below, or download it here:</p>
+                                <p className='desktop-version'>Check it out below, or download it here:</p>
                                 <a href={resumeFile} download="Chase-Leoncini-Resume-2024.pdf" className='resume-thumbnail'>
                                     <img src={resumeThumbnail} alt="Resume Thumbnail" />
                                 </a>
+                                <p className='mobile-version'><a href={resumeFile} download="Chase-Leoncini-Resume-2024.pdf" aria-label='Download PDF'>Download PDF</a></p>
                             </div>
                         </div>
                     </div>
