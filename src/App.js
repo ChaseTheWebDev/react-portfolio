@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
@@ -14,7 +13,7 @@ import './App.css';
 
 export default function AppRouter() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <ScrollToTop />
             <div className='App'>
                 <Navbar />
