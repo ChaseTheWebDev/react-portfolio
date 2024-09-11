@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ import './App.css';
 
 export default function AppRouter() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <ScrollToTop />
             <div className='App'>
                 <Navbar />
