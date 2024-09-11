@@ -1,21 +1,19 @@
-.project-gallery,
-.project-card-container {
-    width: 100%;
+.project-gallery {
+    max-width: calc(100% - 4rem);
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap;
-}
-
-.project-gallery {
-    max-width: calc(100% - 2rem);
 }
 
 .project-card-container {
-    gap: 4rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     padding-block: 2rem;
     padding-inline: 2rem;
-    justify-content: center;
+    margin: 0 auto;
     margin-block: 2rem;
+    gap: 4rem;
 }
 
 .project-card {
@@ -69,6 +67,11 @@
 }
 
 @media (max-width: 1100px) {
+
+    .project-gallery {
+        max-width: calc(100% - 2rem);
+    }
+
     .project-card-container {
         flex-flow: column nowrap;
         margin-block: 0rem;

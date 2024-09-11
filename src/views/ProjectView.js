@@ -82,7 +82,9 @@ export default function ProjectView() {
                     {currentDescription}
                 </div>
             </div>
-            <ProjectGallery id={id}/>
+            <section className='project-gallery' aria-label='Project Gallery'>
+                <ProjectGallery id={id}/>
+            </section>
             <ProjectsNavbar
                 previous={`Project ${renderedPreviousString || ''}`}
                 next={`Project ${renderedNextString || ''}`}
