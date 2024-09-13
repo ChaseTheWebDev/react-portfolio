@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/ContactView.css';
 import emailjs from 'emailjs-com';
 
@@ -10,6 +10,10 @@ export default function ContactView() {
         subject: '',
         message: ''
     });
+
+    useEffect(() => {
+        document.title = `Contact Chase Leoncini`;
+      }, []);
 
     const handleChange = (e) => {
         const { name, value } = e.target;

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import '../styles/ResumeView.css';
 import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
@@ -5,6 +6,11 @@ import resumeFile from '../assets/Chase-Leoncini-Resume-2024.pdf';
 import resumeThumbnail from '../assets/resume-thumbnail.png';
 
 export default function Resume() {
+
+    useEffect(() => {
+        document.title = `Chase Leoncini's Resume`;
+      }, []);
+
     return (
         <div className="resume">
             <section aria-label='Chases Resume Section'>

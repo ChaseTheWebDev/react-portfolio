@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
 import '../styles/CertificationsView.css';
@@ -21,6 +22,10 @@ export default function CertificationsView() {
             image: "react-certification"
         },
     ];
+
+    useEffect(() => {
+        document.title = `Chase Leoncini's Certifications`;
+      }, []);
 
     return (
         <div className='certifications-view'>

@@ -4,4 +4,6 @@
     flex-direction: column;
 }
 
-
+.box-1 img {
+    width: 99%;
+}
