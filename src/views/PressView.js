@@ -1,9 +1,14 @@
-import React from 'react';
+import {useEffect} from 'react';
 import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
 import '../styles/PressView.css';
 
 export default function PressView() {
+
+    useEffect(() => {
+        document.title = `Chase Leoncini's Fake Press Reviews`;
+      }, []);
+
     return (
         <div className='press'>
             <section aria-label='Press Reviews Section'>

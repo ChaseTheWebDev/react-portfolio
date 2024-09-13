@@ -23,6 +23,7 @@
 .box-1 {
   width: 40%;
   display: flex;
+  flex-flow: column nowrap;
   font-size: 1.4rem;
   font-weight: 800;
   line-height: 1.75;
@@ -43,6 +44,13 @@
 
 @media (max-width: 600px) {
 
+  .dual-container-1400 {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-block: 0rem;
+    padding-inline: 1rem;
+  }
+
   .box-1 {
       width: 100%;
       padding-block: 0;
@@ -56,15 +64,6 @@
       padding-block: 1rem;
       padding-bottom: 4rem;
       padding-inline: 0rem;
-  }
-
-
-
-  .dual-container-1400 {
-    display: flex;
-    flex-flow: column nowrap;
-    padding-block: 0rem;
-    padding-inline: 1rem;
   }
 }
 

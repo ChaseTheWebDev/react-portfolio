@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import '../styles/WorkView.css';
 import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
@@ -7,6 +8,11 @@ import ProjectThreeImage1 from "../assets/UticaProjectPreview-1.png";
 import ProjectFourImage1 from "../assets/NetflixProjectPreview-1.png";
 
 export default function WorkView() {
+
+    useEffect(() => {
+        document.title = `Chase Leoncini's Work`;
+      }, []);
+
     return (
         <div className="workview">
             <header>

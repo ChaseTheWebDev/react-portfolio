@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import '../styles/ProjectView.css';
 import { useParams } from 'react-router-dom';
 import ProjectsNavbar from '../components/ProjectsNavbar';
@@ -71,6 +72,10 @@ export default function ProjectView() {
     const renderedNextString = convertNumberToString(nextNumber);
     const renderedPreviousString = convertNumberToString(previousNumber);
     const currentDescription = projectDescriptions[id] || <p>Project not found</p>;
+
+    useEffect(() => {
+        document.title = `Chase Leoncini's Projects`;
+      }, []);
 
     return (
         <div className="project">
