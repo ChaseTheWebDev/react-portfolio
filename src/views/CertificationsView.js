@@ -36,7 +36,7 @@ export default function CertificationsView() {
                     ))}
                 </div>
             </section>
-            <ContactSection background='desktop-blue'>
+            <ContactSection background='certifications'>
             <h2>Let's Work Together</h2>
             <Button variant='dark'>Contact Me</Button>
             </ContactSection>

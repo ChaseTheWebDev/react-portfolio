@@ -39,7 +39,7 @@ export default function PressView() {
                     </div>
                 </div>
             </section>
-            <ContactSection background='other'>
+            <ContactSection background='press'>
             <h2>Let's Work Together</h2>
             <Button variant='dark'>Contact Me</Button>
             </ContactSection>

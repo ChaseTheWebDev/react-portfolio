@@ -1,22 +1,22 @@
-import ProjectOneImage1 from'./darkmodepreview.png';
-import ProjectOneImage2 from'./CTWDHTMLpreview.png';
-import ProjectOneImage3 from'./lightmodepreview.png';
-import ProjectOneImage4 from'./CTWDJSPreview.png';
+import ProjectOneImage1 from'./ctwd-homepage-dark.png';
+import ProjectOneImage2 from'./ctwd-homepage-light.png';
+import ProjectOneImage3 from'./ctwd-projects-list.png';
+import ProjectOneImage4 from'./ctwd-contact.png';
 
-import ProjectTwoImage1 from './HyerPreview.png';
-import ProjectTwoImage2 from './HyerHTML.png';
-import ProjectTwoImage3 from './HyerColumnsPreview.png';
-import ProjectTwoImage4 from './HyerJSPreview.png';
+import ProjectTwoImage1 from './hyer-homepage.png';
+import ProjectTwoImage2 from './hyer-services.png';
+import ProjectTwoImage3 from './hyer-popular-destinations.png';
+import ProjectTwoImage4 from './hyer-slideshow.png';
 
 import ProjectThreeImage1 from "./UticaProjectPreview-1.png";
 import ProjectThreeImage2 from  "./UticaProjectPreview-1.png";
 import ProjectThreeImage3 from  "./UticaProjectPreview-1.png";
 import ProjectThreeImage4 from  "./UticaProjectPreview-1.png";
 
-import ProjectFourImage1 from "./NetflixProjectPreview-1.png";
-import ProjectFourImage2 from "./NetflixProjectPreview-2.png";
-import ProjectFourImage3 from "./NetflixProjectPreview-3.png";
-import ProjectFourImage4 from "./NetflixProjectPreview-1.png";
+import ProjectFourImage1 from "./netflix-landing.png";
+import ProjectFourImage2 from "./netflix-slideshow.png";
+import ProjectFourImage3 from "./netflix-accordion.png";
+import ProjectFourImage4 from "./netflix-footer.png";
 
 const ProjectImages = {
     "one": [

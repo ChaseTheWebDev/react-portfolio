@@ -27,19 +27,19 @@
 }
 
 .certification-image.programming-certification {
-    background-image: url('../assets/programming-certificate.png');
+    background-image: url('../assets/certificate-html-css.png');
 }
 
 .certification-image.html-css-certification {
-    background-image: url('../assets/html-css-certificate.png');
+    background-image: url('../assets/certificate-programming.png');
 }
 
 .certification-image.javascript-certification {
-    background-image: url('../assets/javascript-certificate.png'); 
+    background-image: url('../assets/certificate-javascript.png'); 
 }
 
 .certification-image.react-certification {
-    background-image: url('../assets/react-certificate.png');
+    background-image: url('../assets/certificate-react.png');
 } 
 
 

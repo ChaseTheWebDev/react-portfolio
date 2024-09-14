@@ -43,7 +43,7 @@ export default function AboutView() {
                     </div>
                 </div>
             </section>
-            <ContactSection background="three">
+            <ContactSection background="about">
                 <h2>Let's Work Together</h2>
                 <Button variant='light'>Contact Me</Button>
             </ContactSection>

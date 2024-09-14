@@ -47,16 +47,16 @@
     background: #28282a;
 }
 
-.contact-section.three {
-    background-image: url('../assets/midnightmonsters.jpeg');
+.contact-section.about {
+    background-image: url('../assets/contact-background-about.jpeg');
 }
 
-.contact-section.other {
-    background-image: url('../assets/deskspace.jpg');
+.contact-section.press {
+    background-image: url('../assets/contact-background-press.jpg');
 }
 
-.contact-section.desktop-blue {
-    background-image: url('../assets/desktop-blue.jpg');
+.contact-section.certifications {
+    background-image: url('../assets/contact-background-certifications.jpg');
 }
 
 .contact-section-dark {
