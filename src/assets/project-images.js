@@ -8,10 +8,10 @@ import ProjectTwoImage2 from './hyer-services.png';
 import ProjectTwoImage3 from './hyer-popular-destinations.png';
 import ProjectTwoImage4 from './hyer-slideshow.png';
 
-import ProjectThreeImage1 from "./UticaProjectPreview-1.png";
-import ProjectThreeImage2 from  "./UticaProjectPreview-1.png";
-import ProjectThreeImage3 from  "./UticaProjectPreview-1.png";
-import ProjectThreeImage4 from  "./UticaProjectPreview-1.png";
+import ProjectThreeImage1 from "./utica-homepage.png";
+import ProjectThreeImage2 from  "./utica-projects.png";
+import ProjectThreeImage3 from  "./utica-team.png";
+import ProjectThreeImage4 from  "./utica-contact.png";
 
 import ProjectFourImage1 from "./netflix-landing.png";
 import ProjectFourImage2 from "./netflix-slideshow.png";

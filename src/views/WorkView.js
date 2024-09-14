@@ -4,7 +4,7 @@ import ContactSection from '../components/ContactSection';
 import Button from '../components/Button';
 import ProjectOneImage1 from '../assets/ctwd-homepage-dark.png';
 import ProjectTwoImage1 from '../assets/hyer-homepage.png';
-import ProjectThreeImage1 from "../assets/UticaProjectPreview-1.png";
+import ProjectThreeImage1 from "../assets/utica-homepage.png";
 import ProjectFourImage1 from "../assets/netflix-landing.png";
 
 export default function WorkView() {
