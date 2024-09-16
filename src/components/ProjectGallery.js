@@ -9,8 +9,8 @@ export default function ProjectGallery({ id }) {
             {projectImages.map((image, index) => (
                 <a  href={image.link}  key={index} className="project-card" target='blank'>
                     <img src={image.src}  className="project-image" alt={`Screenshot of Project ${id} `}/>
-                    <div className="overlay">
-                            <h5>{`View Project ${id}'s Code`}</h5>
+                    <div className="project-gallery-overlay">
+                            <h5>{`View Code`}</h5>
                     </div>
                 </a>
             ))}

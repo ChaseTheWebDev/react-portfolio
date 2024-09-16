@@ -22,39 +22,50 @@ const projectDescriptions = {
     "one": (
         <div>
             <p>
-                It all began here. My first project. This simple but effective page uses 99% Semantic HTML5
-                and CSS. Not everything needs Javascript.
+                It all started here, my original ChaseTheWebDev portfolio. This straightforward yet effective page utilizes 99% Semantic HTML5
+                and CSS, and is still fully functional, because... not everything requires JavaScript.
             </p>
-            <p>Another paragraph</p>
-            <p>And another</p>
-            <p>More.</p>
+            <p>That being said, this is the only portfolio piece that features both dark and light modes, and that is the only area where
+                javascript was used.</p>
         </div>
     ),
     "two": (
         <div>
-            <p>We think of architecture not as a single practice, but as several interlocking ones...</p>
+            <p>
+                Hyer Airlines garnered numerous awards for its web design, which inspired me to recreate it from scratch using a blend
+                of grid and flex code. This project incorporates some deceptively complex layouts and more animations compared
+                to my other HTML5/CSS portfolio piece. It's a nice showcase of my evolution with both languages.
+            </p>
+            <p>
+                You'll notice the continued use of semantic HTML5, which enhances accessibility and SEO as well as javascript for
+                a small slideshow at near the bottom.
+            </p>
         </div>
     ),
     "three": (
         <div>
-            <p>You guessed it, this project has the exact same layout as this one. That's because what began
-                as a simple 48 hour challenge, ended as the host site for my portfolio work. This example is 
-                not as complex as the site you're on now. The differences with Utica's site are it does not have
-                a complex project viewer like this one, nor does it's contact us section work. This one on the
-                other hand is equipped with emailJS, so you can send me an email through the footer or the contact 
-                us page. Either way. Either Way.
+            <p>
+                As you might have guessed, this project features the same layout as the one you're viewing. What began as a simple
+                48-hour challenge evolved into the host site for my portfolio. This Utica version is less complex than the current site;
+                it lacks a sophisticated project viewer and a functional contact form. The site you're on now, however, is equipped
+                with emailJS, allowing you to send me an email through the footer or the contact page.
             </p>
         </div>
     ),
     "four": (
         <div>
-            <p>And for my fourth and final trick, I've begun working on a clone of Netflix. This is still a work
-                in progress, but the goal is to use proptypes, SASS, and a free API to show just how much I can stack
-                into one page. It may not be largest of my portfolio pieces, but it is certainly the most complex.
+            <p>
+                For my fourth and final project, here is a clone of Netflix's landing page. I aimed to focus less on HTML and CSS and
+                more on React and JavaScript. Although there is still work to be done, this is the only portfolio piece featuring the
+                integration of a free API. There's also plenty of javasctipt to check out such as dropdown component, an accordion, and a slideshow.
+            </p>
+            <p>
+                This piece may not have the most content of the four projects, but it certainly has the most complex code.
             </p>
         </div>
     ),
 };
+
 
 function convertStringToNumber(string) {
     return numberMap[string] || null;
