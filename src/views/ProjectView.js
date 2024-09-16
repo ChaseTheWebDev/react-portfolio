@@ -56,7 +56,7 @@ const projectDescriptions = {
         <div>
             <p>
                 For my fourth and final project, here is a clone of Netflix's landing page. I aimed to focus less on HTML and CSS and
-                more on React and JavaScript. Although there is still work to be done, this is the only portfolio piece featuring the
+                more on React and JavaScript. This is the only portfolio piece featuring the
                 integration of a free API. There's also plenty of javasctipt to check out such as dropdown component, an accordion, and a slideshow.
             </p>
             <p>
