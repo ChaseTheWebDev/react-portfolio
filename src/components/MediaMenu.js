@@ -9,7 +9,7 @@ export default function MediaMenu({ onClose }) {
     <div className="media-menu">
       <div className="media-menu-container">
         <div className="menu-nav-container">
-          <h1><NavLink to='/'>ChaseTheWebDev</NavLink></h1>
+          <h1><NavLink to='/' onClick={onClose}>ChaseTheWebDev</NavLink></h1>
           <button className="close-button" aria-label="Close Button" onClick={onClose}>
             <AiOutlineClose />
           </button>
