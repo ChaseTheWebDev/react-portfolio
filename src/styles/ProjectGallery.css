@@ -74,6 +74,10 @@
     opacity: 1;
 }
 
+.project-card:hover .project-gallery-overlay {
+    opacity: 1;
+}
+
 .overlay h5 {
     margin: 0;
     font-size: 1rem;
